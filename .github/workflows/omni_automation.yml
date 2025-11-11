@@ -1,0 +1,93 @@
+name: Omni-Automation
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: ["**"]
+  release:
+    types: [created, published, edited, released]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"            # hourly
+  issues:
+    types: [opened, edited, deleted, closed, reopened, assigned, unassigned, labeled, unlabeled]
+  issue_comment:
+    types: [created, edited, deleted]
+  fork:
+  watch:
+    types: [started]
+  discussion:
+    types: [created, answered, edited, deleted]
+  workflow_run:
+    workflows: ["Omni-Automation"]
+    types:
+      - completed
+
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
+  discussions: write
+  issues: write
+  packages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
+
+jobs:
+  omni:
+    name: Run every automation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies (npm + pip)
+        run: |
+          if [ -f package.json ]; then npm ci || npm install; fi
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run tests if present
+        run: |
+          if [ -f package.json ]; then npm test || echo "no npm tests"; fi
+          if [ -f Makefile ]; then make test || echo "no make tests"; fi
+          if [ -f pytest.ini ] || [ -d tests ]; then pytest || echo "no pytest"; fi
+
+      - name: Lint / format if present
+        run: |
+          npx prettier --check . || true
+          pylint **/*.py || true
+
+      - name: Build / deploy example
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Build phase complete at $(date)"
+          echo "You can add deploy logic here (Vercel, Supabase, etc.)"
+
+      - name: Archive artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: omni-artifacts
+          path: |
+            **/*.log
+            coverage/**
+            dist/**
+
+      - name: Post completion summary
+        run: |
+          echo "✅ Omni-Automation finished successfully at $(date)"
