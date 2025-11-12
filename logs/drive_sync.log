@@ -1,0 +1,80 @@
+[🪶] Starting Etherverse → Drive sync at Tue Nov 11 05:00:01 PM EST 2025
+2025/11/11 17:00:05 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 17:00:05 ERROR : Attempt 1/3 failed with 1 errors and: directory not found
+2025/11/11 17:00:05 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 17:00:05 ERROR : Attempt 2/3 failed with 1 errors and: directory not found
+2025/11/11 17:00:05 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 17:00:05 ERROR : Attempt 3/3 failed with 1 errors and: directory not found
+2025/11/11 17:00:05 Failed to copy: directory not found
+[✅] Sync complete at Tue Nov 11 05:00:06 PM EST 2025
+----------------------------------------
+[🪶] Starting Etherverse → Drive sync at Tue Nov 11 06:00:01 PM EST 2025
+2025/11/11 18:00:03 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 18:00:03 ERROR : Attempt 1/3 failed with 1 errors and: directory not found
+2025/11/11 18:00:03 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 18:00:03 ERROR : Attempt 2/3 failed with 1 errors and: directory not found
+2025/11/11 18:00:04 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 18:00:04 ERROR : Attempt 3/3 failed with 1 errors and: directory not found
+2025/11/11 18:00:04 Failed to copy: directory not found
+[✅] Sync complete at Tue Nov 11 06:00:05 PM EST 2025
+----------------------------------------
+[🪶] Starting Etherverse → Drive sync at Tue Nov 11 07:00:01 PM EST 2025
+2025/11/11 19:00:04 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 19:00:04 ERROR : Attempt 1/3 failed with 1 errors and: directory not found
+2025/11/11 19:00:04 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 19:00:04 ERROR : Attempt 2/3 failed with 1 errors and: directory not found
+2025/11/11 19:00:04 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 19:00:04 ERROR : Attempt 3/3 failed with 1 errors and: directory not found
+2025/11/11 19:00:04 Failed to copy: directory not found
+[✅] Sync complete at Tue Nov 11 07:00:05 PM EST 2025
+----------------------------------------
+[🪶] Starting Etherverse → Drive sync at Tue Nov 11 08:00:02 PM EST 2025
+2025/11/11 20:00:05 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 20:00:05 ERROR : Attempt 1/3 failed with 1 errors and: directory not found
+2025/11/11 20:00:05 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 20:00:05 ERROR : Attempt 2/3 failed with 1 errors and: directory not found
+2025/11/11 20:00:05 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 20:00:05 ERROR : Attempt 3/3 failed with 1 errors and: directory not found
+2025/11/11 20:00:05 Failed to copy: directory not found
+[✅] Sync complete at Tue Nov 11 08:00:06 PM EST 2025
+----------------------------------------
+[🪶] Starting Etherverse → Drive sync at Tue Nov 11 09:00:32 PM EST 2025
+2025/11/11 21:03:52 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 21:03:52 ERROR : Attempt 1/3 failed with 1 errors and: directory not found
+2025/11/11 21:03:52 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 21:03:52 ERROR : Attempt 2/3 failed with 1 errors and: directory not found
+2025/11/11 21:03:53 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 21:03:53 ERROR : Attempt 3/3 failed with 1 errors and: directory not found
+2025/11/11 21:03:53 Failed to copy: directory not found
+[✅] Sync complete at Tue Nov 11 09:04:16 PM EST 2025
+----------------------------------------
+[🪶] Starting Etherverse → Drive sync at Tue Nov 11 10:00:01 PM EST 2025
+2025/11/11 22:00:04 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 22:00:04 ERROR : Attempt 1/3 failed with 1 errors and: directory not found
+2025/11/11 22:00:04 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 22:00:04 ERROR : Attempt 2/3 failed with 1 errors and: directory not found
+2025/11/11 22:00:04 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 22:00:04 ERROR : Attempt 3/3 failed with 1 errors and: directory not found
+2025/11/11 22:00:04 Failed to copy: directory not found
+[✅] Sync complete at Tue Nov 11 10:00:05 PM EST 2025
+----------------------------------------
+[🪶] Starting Etherverse → Drive sync at Tue Nov 11 11:00:01 PM EST 2025
+2025/11/11 23:00:08 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 23:00:08 ERROR : Attempt 1/3 failed with 1 errors and: directory not found
+2025/11/11 23:00:09 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 23:00:09 ERROR : Attempt 2/3 failed with 1 errors and: directory not found
+2025/11/11 23:00:09 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/11 23:00:09 ERROR : Attempt 3/3 failed with 1 errors and: directory not found
+2025/11/11 23:00:09 Failed to copy: directory not found
+[✅] Sync complete at Tue Nov 11 11:00:10 PM EST 2025
+----------------------------------------
+[🪶] Starting Etherverse → Drive sync at Wed Nov 12 12:00:01 AM EST 2025
+2025/11/12 00:00:03 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/12 00:00:03 ERROR : Attempt 1/3 failed with 1 errors and: directory not found
+2025/11/12 00:00:03 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/12 00:00:03 ERROR : Attempt 2/3 failed with 1 errors and: directory not found
+2025/11/12 00:00:03 ERROR : Local file system at /home/etherverse/etherverse/docs/birth_logs.json: error reading source root directory: directory not found
+2025/11/12 00:00:03 ERROR : Attempt 3/3 failed with 1 errors and: directory not found
+2025/11/12 00:00:03 Failed to copy: directory not found
+[✅] Sync complete at Wed Nov 12 12:00:04 AM EST 2025
+----------------------------------------

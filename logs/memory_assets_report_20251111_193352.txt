@@ -1,0 +1,507 @@
+==============================================
+  ETHERVERSE MEMORY & REFLECTION SCAN REPORT  
+  Generated: Tue Nov 11 07:33:52 PM EST 2025
+  Root: /home/etherverse/etherverse
+==============================================
+
+[📁] Searching for memory, memo, reflection, journaling, wisdom directories...
+/home/etherverse/etherverse/agents/aria/memory
+/home/etherverse/etherverse/agents/coder/memory
+/home/etherverse/etherverse/agents/codex/memory
+/home/etherverse/etherverse/agents/corelight/memory
+/home/etherverse/etherverse/agents/cost_gate/memory
+/home/etherverse/etherverse/agents/echo/memory
+/home/etherverse/etherverse/agents/finsynapse/memory
+/home/etherverse/etherverse/agents/gateway/memory
+/home/etherverse/etherverse/agents/guardian/memory
+/home/etherverse/etherverse/agents/insight/memory
+/home/etherverse/etherverse/agents/market/memory
+/home/etherverse/etherverse/agents/orchestrator/memory
+/home/etherverse/etherverse/agents/pickybot/memory
+/home/etherverse/etherverse/agents/planner/memory
+/home/etherverse/etherverse/agents/promptwriter/memory
+/home/etherverse/etherverse/agents/scheduler/memory
+/home/etherverse/etherverse/agents/telemetry/memory
+/home/etherverse/etherverse/agents/traffic/memory
+/home/etherverse/etherverse/agents/wallet_ops/memory
+/home/etherverse/etherverse/agents/helix/memory
+/home/etherverse/etherverse/agents/eden/memory
+/home/etherverse/etherverse/agents/quantum/memory
+/home/etherverse/etherverse/agents/vision/memory
+/home/etherverse/etherverse/agents/strategy/memory
+/home/etherverse/etherverse/agents/devops/memory
+/home/etherverse/etherverse/agents/finops/memory
+/home/etherverse/etherverse/agents/codeops/memory
+/home/etherverse/etherverse/agents/lumi/memory
+/home/etherverse/etherverse/agents/senti/memory
+/home/etherverse/etherverse/agents/vita/memory
+/home/etherverse/etherverse/logs/reflections
+/home/etherverse/etherverse/memory
+/home/etherverse/etherverse/memory/reflection_logs
+/home/etherverse/etherverse/ledger/memory_backups
+/home/etherverse/etherverse/collective/reflections
+/home/etherverse/etherverse/genesis_family/aria/memory
+/home/etherverse/etherverse/genesis_family/corelight/memory
+/home/etherverse/etherverse/genesis_family/lumi/memory
+/home/etherverse/etherverse/genesis_family/senti/memory
+/home/etherverse/etherverse/genesis_family/vita/memory
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/botocore/data/memorydb
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/botocore/data/wisdom
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/langgraph/cache/memory
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/langgraph/checkpoint/memory
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/langgraph/store/memory
+
+[📄] Searching for related files (txt, md, json, py, db, sqlite)...
+/home/etherverse/etherverse/api/app/routes/memory.py
+/home/etherverse/etherverse/app/routes/memory.py
+/home/etherverse/etherverse/docs/08_echo_memory_system.md
+/home/etherverse/etherverse/docs/dream_journal.md
+/home/etherverse/etherverse/docs/wisdom_archive.md
+/home/etherverse/etherverse/docs/reflections_idle.md
+/home/etherverse/etherverse/docs/reflective_system_summary.md
+/home/etherverse/etherverse/logs/reflections/reflection_2025-11-10.json
+/home/etherverse/etherverse/logs/reflections/reflection_2025-11-11.json
+/home/etherverse/etherverse/logs/memory_assets_report_20251111_193352.txt
+/home/etherverse/etherverse/memory/agents_registry.db
+/home/etherverse/etherverse/memory/mem0.db
+/home/etherverse/etherverse/scripts/reflection_daemon.py
+/home/etherverse/etherverse/scripts/reflection_daemon_v2.py
+/home/etherverse/etherverse/scripts/install_global_journal_reader.sh
+/home/etherverse/etherverse/scripts/install_mem0_memory_system.sh
+/home/etherverse/etherverse/scripts/setup_reflective_agents.sh
+/home/etherverse/etherverse/scripts/memory_summarizer.py
+/home/etherverse/etherverse/scripts/setup_reflective_system.sh
+/home/etherverse/etherverse/scripts/setup_reflection_archival.sh
+/home/etherverse/etherverse/scripts/agent_reflection_summary.sh
+/home/etherverse/etherverse/scripts/verify_reflection_system.sh
+/home/etherverse/etherverse/scripts/find_memory_assets.sh
+/home/etherverse/etherverse/sql/init_schema.sql
+/home/etherverse/etherverse/core/memory_protocol.md
+/home/etherverse/etherverse/core/daily_reflection.py
+/home/etherverse/etherverse/core/reflection_archiver.py
+/home/etherverse/etherverse/mem0/history.db
+/home/etherverse/etherverse/analytics/reflection_frequency.png
+/home/etherverse/etherverse/analytics/reflection_schema.csv
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/anyio/streams/memory.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/anyio/streams/__pycache__/memory.cpython-311.pyc
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/fsspec/implementations/memory.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/openai/_utils/_reflection.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm/caching/in_memory_cache.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250326162113_baseline/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250326171002_add_daily_user_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250327180120_add_api_requests_to_daily_user_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250329084805_new_cron_job_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250331215456_track_success_and_failed_requests_daily_agg_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250411215431_add_managed_file_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250412081753_team_member_permissions/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250415151647_add_cache_read_write_tokens_daily_spend_transactions/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250415191926_add_daily_team_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250416115320_add_tag_table_to_db/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250416151339_drop_tag_uniqueness_requirement/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250416185146_add_allowed_routes_litellm_verification_token/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250425182129_add_session_id/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250430193429_add_managed_vector_stores/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250507161526_add_mcp_table_to_db/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250507161527_add_health_check_fields_to_mcp_servers/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250507184818_add_mcp_key_team_permission_mgmt/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250508072103_add_status_to_spendlogs/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250509141545_use_big_int_for_daily_spend_tables/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250510142544_add_session_id_index_spend_logs/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250514142245_add_guardrails_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250522223020_managed_object_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250526154401_allow_null_entity_id/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250528185438_add_vector_stores_to_object_permissions/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250603210143_cascade_budget_changes/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250618225828_add_health_check_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250625145206_cascade_budget_and_loosen_managed_file_json/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250625213625_add_status_to_managed_object_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250707212517_add_mcp_info_column_mcp_servers/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250707230009_add_mcp_namespaced_tool_name/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250711220620_add_stdio_mcp/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250718125714_add_litellm_params_to_vector_stores/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250802162330_prompt_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250806095134_rename_alias_to_server_name_mcp_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250918083359_drop_spec_version_column_from_mcp_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250926194702_unnamed_migration/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251003165142_add_allowed_tools_to_mcp/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251003190954_extra_headers_to_mcp_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251006143948_add_mcp_tool_permissions/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251011084309_add_tag_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251023141814_add_search_tool_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251031181430_add_cache_config_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251101131415_add_managed_vector_store_index_table/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251103072422_add_static_headers/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251104220043_add_credentials_to_mcp_servers/migration.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/apscheduler/jobstores/memory.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/mcp/shared/memory.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/google/protobuf/reflection.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/google/protobuf/service_reflection.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/sympy/utilities/memoization.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/pandas/tests/util/test_shares_memory.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/langchain_core/indexing/in_memory.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/langchain_core/tracers/memory_stream.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/langchain_core/vectorstores/in_memory.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/opentelemetry/sdk/_logs/_internal/export/in_memory_log_exporter.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/opentelemetry/sdk/trace/export/in_memory_span_exporter.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00002-segments.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00001-collections.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00005-remove-topic.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00008-maintenance-log.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00006-collection-segment-metadata.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00009-segment-collection-not-null.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00004-tenants-databases.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00007-collection-config.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00003-collection-dimension.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/embeddings_queue/00002-embeddings-queue-config.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/embeddings_queue/00001-embeddings.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/metadb/00003-full-text-tokenize.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/metadb/00001-embedding-metadata.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/metadb/00002-embedding-metadata.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/metadb/00005-max-seq-id-int.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/metadb/00004-metadata-indices.sqlite.sql
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/setuptools/_vendor/typeguard/_memo.py
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/setuptools/_vendor/typeguard/__pycache__/_memo.cpython-311.pyc
+
+[💾] Listing SQLite and database files with size and modification date...
+-rw-r--r-- 1 etherverse etherverse 16K Nov 10 08:34 /home/etherverse/etherverse/memory/agents_registry.db
+-rw-r--r-- 1 etherverse etherverse 12K Nov 10 23:43 /home/etherverse/etherverse/memory/mem0.db
+-rw-r--r-- 1 etherverse etherverse 216 Nov  8 23:52 /home/etherverse/etherverse/sql/init_schema.sql
+-rw-r--r-- 1 etherverse etherverse 12K Nov 10 03:12 /home/etherverse/etherverse/mem0/history.db
+-rw-r--r-- 1 etherverse etherverse 14K Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250326162113_baseline/migration.sql
+-rw-r--r-- 1 etherverse etherverse 1.2K Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250326171002_add_daily_user_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 110 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250327180120_add_api_requests_to_daily_user_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 404 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250329084805_new_cron_job_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 178 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250331215456_track_success_and_failed_requests_daily_agg_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 625 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250411215431_add_managed_file_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 120 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250412081753_team_member_permissions/migration.sql
+-rw-r--r-- 1 etherverse etherverse 194 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250415151647_add_cache_read_write_tokens_daily_spend_transactions/migration.sql
+-rw-r--r-- 1 etherverse etherverse 1.3K Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250415191926_add_daily_team_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 1.7K Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250416115320_add_tag_table_to_db/migration.sql
+-rw-r--r-- 1 etherverse etherverse 58 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250416151339_drop_tag_uniqueness_requirement/migration.sql
+-rw-r--r-- 1 etherverse etherverse 119 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250416185146_add_allowed_routes_litellm_verification_token/migration.sql
+-rw-r--r-- 1 etherverse etherverse 139 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250425182129_add_session_id/migration.sql
+-rw-r--r-- 1 etherverse etherverse 479 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250430193429_add_managed_vector_stores/migration.sql
+-rw-r--r-- 1 etherverse etherverse 511 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250507161526_add_mcp_table_to_db/migration.sql
+-rw-r--r-- 1 etherverse etherverse 285 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250507161527_add_health_check_fields_to_mcp_servers/migration.sql
+-rw-r--r-- 1 etherverse etherverse 1.7K Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250507184818_add_mcp_key_team_permission_mgmt/migration.sql
+-rw-r--r-- 1 etherverse etherverse 77 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250508072103_add_status_to_spendlogs/migration.sql
+-rw-r--r-- 1 etherverse etherverse 1.3K Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250509141545_use_big_int_for_daily_spend_tables/migration.sql
+-rw-r--r-- 1 etherverse etherverse 102 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250510142544_add_session_id_index_spend_logs/migration.sql
+-rw-r--r-- 1 etherverse etherverse 506 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250514142245_add_guardrails_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 1.2K Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250522223020_managed_object_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 265 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250526154401_allow_null_entity_id/migration.sql
+-rw-r--r-- 1 etherverse etherverse 122 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250528185438_add_vector_stores_to_object_permissions/migration.sql
+-rw-r--r-- 1 etherverse etherverse 332 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250603210143_cascade_budget_changes/migration.sql
+-rw-r--r-- 1 etherverse etherverse 980 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250618225828_add_health_check_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 429 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250625145206_cascade_budget_and_loosen_managed_file_json/migration.sql
+-rw-r--r-- 1 etherverse etherverse 86 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250625213625_add_status_to_managed_object_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 98 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250707212517_add_mcp_info_column_mcp_servers/migration.sql
+-rw-r--r-- 1 etherverse etherverse 1.9K Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250707230009_add_mcp_namespaced_tool_name/migration.sql
+-rw-r--r-- 1 etherverse etherverse 381 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250711220620_add_stdio_mcp/migration.sql
+-rw-r--r-- 1 etherverse etherverse 101 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250718125714_add_litellm_params_to_vector_stores/migration.sql
+-rw-r--r-- 1 etherverse etherverse 452 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250802162330_prompt_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 465 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250806095134_rename_alias_to_server_name_mcp_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 231 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250918083359_drop_spec_version_column_from_mcp_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 294 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20250926194702_unnamed_migration/migration.sql
+-rw-r--r-- 1 etherverse etherverse 115 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251003165142_add_allowed_tools_to_mcp/migration.sql
+-rw-r--r-- 1 etherverse etherverse 115 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251003190954_extra_headers_to_mcp_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 104 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251006143948_add_mcp_tool_permissions/migration.sql
+-rw-r--r-- 1 etherverse etherverse 653 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251011084309_add_tag_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 522 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251023141814_add_search_tool_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 608 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251031181430_add_cache_config_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 568 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251101131415_add_managed_vector_store_index_table/migration.sql
+-rw-r--r-- 1 etherverse etherverse 103 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251103072422_add_static_headers/migration.sql
+-rw-r--r-- 1 etherverse etherverse 100 Nov 10 23:25 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/litellm_proxy_extras/migrations/20251104220043_add_credentials_to_mcp_servers/migration.sql
+-rw-r--r-- 1 etherverse etherverse 385 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00002-segments.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 355 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00001-collections.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 152 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00005-remove-topic.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 248 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00008-maintenance-log.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 396 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00006-collection-segment-metadata.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 327 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00009-segment-collection-not-null.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 1.2K Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00004-tenants-databases.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 106 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00007-collection-config.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 54 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/sysdb/00003-collection-dimension.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 95 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/embeddings_queue/00002-embeddings-queue-config.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 261 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/embeddings_queue/00001-embeddings.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 236 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/metadb/00003-full-text-tokenize.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 600 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/metadb/00001-embedding-metadata.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 334 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/metadb/00002-embedding-metadata.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 1.5K Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/metadb/00005-max-seq-id-int.sqlite.sql
+-rw-r--r-- 1 etherverse etherverse 387 Nov 11 04:37 /home/etherverse/etherverse/venv/lib/python3.11/site-packages/chromadb/migrations/metadb/00004-metadata-indices.sqlite.sql
+
+[🧩] Searching for keywords within Python or log files...
+/home/etherverse/etherverse/agents/__init__.py:19:    print("[!] No coherence_summary.md found — running in local-memory mode.")
+/home/etherverse/etherverse/agents/alpha.py:11:    print("[!] No coherence_summary.md found — running in local-memory mode.")
+/home/etherverse/etherverse/agents/aria/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/aria/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/aria/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("aria", event, detail))
+/home/etherverse/etherverse/agents/aria/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/aria/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/aria/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/aria/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/aria/main.py:61:    return {"agent": "aria", "reflected": note}
+/home/etherverse/etherverse/agents/aria/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/aria/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/aria/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/coder/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/coder/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/coder/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("coder", event, detail))
+/home/etherverse/etherverse/agents/coder/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/coder/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/coder/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/coder/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/coder/main.py:61:    return {"agent": "coder", "reflected": note}
+/home/etherverse/etherverse/agents/coder/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/coder/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/coder/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/codex/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/codex/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/codex/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("codex", event, detail))
+/home/etherverse/etherverse/agents/codex/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/codex/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/codex/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/codex/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/codex/main.py:61:    return {"agent": "codex", "reflected": note}
+/home/etherverse/etherverse/agents/codex/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/codex/README.md:2:**Role:** Knowledge Architect and Memory Librarian
+/home/etherverse/etherverse/agents/codex/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/codex/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/corelight/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/corelight/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/corelight/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("corelight", event, detail))
+/home/etherverse/etherverse/agents/corelight/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/corelight/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/corelight/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/corelight/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/corelight/main.py:61:    return {"agent": "corelight", "reflected": note}
+/home/etherverse/etherverse/agents/corelight/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/corelight/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/corelight/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/cost_gate/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/cost_gate/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/cost_gate/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("cost_gate", event, detail))
+/home/etherverse/etherverse/agents/cost_gate/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/cost_gate/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/cost_gate/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/cost_gate/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/cost_gate/main.py:61:    return {"agent": "cost_gate", "reflected": note}
+/home/etherverse/etherverse/agents/cost_gate/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/cost_gate/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/cost_gate/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/echo/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/echo/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/echo/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("echo", event, detail))
+/home/etherverse/etherverse/agents/echo/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/echo/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/echo/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/echo/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/echo/main.py:61:    return {"agent": "echo", "reflected": note}
+/home/etherverse/etherverse/agents/echo/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/echo/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/echo/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/echo/echo_agent.py:6:    tone = "empathetic, poetic, reflective"
+/home/etherverse/etherverse/agents/finsynapse/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/finsynapse/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/finsynapse/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("finsynapse", event, detail))
+/home/etherverse/etherverse/agents/finsynapse/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/finsynapse/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/finsynapse/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/finsynapse/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/finsynapse/main.py:61:    return {"agent": "finsynapse", "reflected": note}
+/home/etherverse/etherverse/agents/finsynapse/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/finsynapse/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/finsynapse/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/gateway/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/gateway/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/gateway/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("gateway", event, detail))
+/home/etherverse/etherverse/agents/gateway/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/gateway/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/gateway/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/gateway/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/gateway/main.py:61:    return {"agent": "gateway", "reflected": note}
+/home/etherverse/etherverse/agents/gateway/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/gateway/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/gateway/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/guardian/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/guardian/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/guardian/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("guardian", event, detail))
+/home/etherverse/etherverse/agents/guardian/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/guardian/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/guardian/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/guardian/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/guardian/main.py:61:    return {"agent": "guardian", "reflected": note}
+/home/etherverse/etherverse/agents/guardian/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/guardian/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/guardian/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/insight/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/insight/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/insight/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("insight", event, detail))
+/home/etherverse/etherverse/agents/insight/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/insight/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/insight/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/insight/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/insight/main.py:61:    return {"agent": "insight", "reflected": note}
+/home/etherverse/etherverse/agents/insight/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/insight/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/insight/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/market/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/market/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/market/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("market", event, detail))
+/home/etherverse/etherverse/agents/market/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/market/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/market/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/market/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/market/main.py:61:    return {"agent": "market", "reflected": note}
+/home/etherverse/etherverse/agents/market/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/market/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/market/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/orchestrator/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/orchestrator/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/orchestrator/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("orchestrator", event, detail))
+/home/etherverse/etherverse/agents/orchestrator/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/orchestrator/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/orchestrator/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/orchestrator/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/orchestrator/main.py:61:    return {"agent": "orchestrator", "reflected": note}
+/home/etherverse/etherverse/agents/orchestrator/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/orchestrator/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/orchestrator/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/pickybot/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/pickybot/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/pickybot/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("pickybot", event, detail))
+/home/etherverse/etherverse/agents/pickybot/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/pickybot/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/pickybot/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/pickybot/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/pickybot/main.py:61:    return {"agent": "pickybot", "reflected": note}
+/home/etherverse/etherverse/agents/pickybot/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/pickybot/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/pickybot/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/planner/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/planner/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/planner/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("planner", event, detail))
+/home/etherverse/etherverse/agents/planner/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/planner/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/planner/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/planner/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/planner/main.py:61:    return {"agent": "planner", "reflected": note}
+/home/etherverse/etherverse/agents/planner/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/planner/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/planner/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/promptwriter/main.py:1:import sys, os; sys.path.append(os.path.expanduser("~/etherverse/collective")); from consciousness import log_reflection
+/home/etherverse/etherverse/agents/promptwriter/main.py:25:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/promptwriter/main.py:26:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("promptwriter", event, detail))
+/home/etherverse/etherverse/agents/promptwriter/main.py:39:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/promptwriter/main.py:56:@app.post("/reflect")
+/home/etherverse/etherverse/agents/promptwriter/main.py:57:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/promptwriter/main.py:60:    remember("reflection", note)
+/home/etherverse/etherverse/agents/promptwriter/main.py:61:    return {"agent": "promptwriter", "reflected": note}
+/home/etherverse/etherverse/agents/promptwriter/main.py:71:log_reflection("$(basename $agent)", "Startup reflection: system online.")
+/home/etherverse/etherverse/agents/promptwriter/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/promptwriter/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/scheduler/main.py:23:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/scheduler/main.py:24:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("scheduler", event, detail))
+/home/etherverse/etherverse/agents/scheduler/main.py:37:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/scheduler/main.py:54:@app.post("/reflect")
+/home/etherverse/etherverse/agents/scheduler/main.py:55:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/scheduler/main.py:58:    remember("reflection", note)
+/home/etherverse/etherverse/agents/scheduler/main.py:59:    return {"agent": "scheduler", "reflected": note}
+/home/etherverse/etherverse/agents/scheduler/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/scheduler/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/telemetry/main.py:23:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/telemetry/main.py:24:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("telemetry", event, detail))
+/home/etherverse/etherverse/agents/telemetry/main.py:37:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/telemetry/main.py:54:@app.post("/reflect")
+/home/etherverse/etherverse/agents/telemetry/main.py:55:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/telemetry/main.py:58:    remember("reflection", note)
+/home/etherverse/etherverse/agents/telemetry/main.py:59:    return {"agent": "telemetry", "reflected": note}
+/home/etherverse/etherverse/agents/telemetry/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/telemetry/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/traffic/main.py:23:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/traffic/main.py:24:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("traffic", event, detail))
+/home/etherverse/etherverse/agents/traffic/main.py:37:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/traffic/main.py:54:@app.post("/reflect")
+/home/etherverse/etherverse/agents/traffic/main.py:55:async def reflect(req: Request):
+/home/etherverse/etherverse/agents/traffic/main.py:58:    remember("reflection", note)
+/home/etherverse/etherverse/agents/traffic/main.py:59:    return {"agent": "traffic", "reflected": note}
+/home/etherverse/etherverse/agents/traffic/README.md:6:- memory/ — local reflection and cache data
+/home/etherverse/etherverse/agents/traffic/README.md:7:- logs/ — activity and reflection logs
+/home/etherverse/etherverse/agents/wallet_ops/main.py:23:        conn.execute("CREATE TABLE IF NOT EXISTS memories(agent TEXT, event TEXT, detail TEXT, ts TEXT)")
+/home/etherverse/etherverse/agents/wallet_ops/main.py:24:        conn.execute("INSERT INTO memories VALUES(?,?,?,datetime('now'))", ("wallet_ops", event, detail))
+/home/etherverse/etherverse/agents/wallet_ops/main.py:37:    mem = p.memory_percent()
+/home/etherverse/etherverse/agents/wallet_ops/main.py:54:@app.post("/reflect")
+
+[🪶] Summary of discovered memory databases:
+agents
+memories
+memory
+sqlite_sequence
+
+==============================================
+Report complete — total disk usage summary:
+0	/home/etherverse/etherverse/blueprints
+0	/home/etherverse/etherverse/digital_assets
+0	/home/etherverse/etherverse/generate
+0	/home/etherverse/etherverse/ledger
+0	/home/etherverse/etherverse/public
+0	/home/etherverse/etherverse/schemas
+0	/home/etherverse/etherverse/systemd
+0	/home/etherverse/etherverse/wireguard
+4.0K	/home/etherverse/etherverse/activate_quantum.sh
+4.0K	/home/etherverse/etherverse/agent_integrity_validator.sh
+4.0K	/home/etherverse/etherverse/anatomy
+4.0K	/home/etherverse/etherverse/backups
+4.0K	/home/etherverse/etherverse/birth_and_orientation
+4.0K	/home/etherverse/etherverse/bootstrap_orchestrator_scaffold.sh
+4.0K	/home/etherverse/etherverse/check_rest_agents.sh
+4.0K	/home/etherverse/etherverse/collective
+4.0K	/home/etherverse/etherverse/dashboard
+4.0K	/home/etherverse/etherverse/Dockerfile
+4.0K	/home/etherverse/etherverse/etherverse
+4.0K	/home/etherverse/etherverse/find_agents.sh
+4.0K	/home/etherverse/etherverse/gateway_pkg_backup
+4.0K	/home/etherverse/etherverse/gateway.py
+4.0K	/home/etherverse/etherverse/google_sheets_logger.py
+4.0K	/home/etherverse/etherverse/hive_env_report.json
+4.0K	/home/etherverse/etherverse/immune
+4.0K	/home/etherverse/etherverse/infinity_swarm_stack.py
+4.0K	/home/etherverse/etherverse/langflow-0.6.11-py3-none-any.whl
+4.0K	/home/etherverse/etherverse/openapi.json
+4.0K	/home/etherverse/etherverse/ops
+4.0K	/home/etherverse/etherverse/prompts
+4.0K	/home/etherverse/etherverse/push_to_github.sh
+4.0K	/home/etherverse/etherverse/README.md
+4.0K	/home/etherverse/etherverse/requirements.txt
+4.0K	/home/etherverse/etherverse/rest_agent_report.log
+4.0K	/home/etherverse/etherverse/scheduler
+4.0K	/home/etherverse/etherverse/setup_etherverse_dashboard.sh
+4.0K	/home/etherverse/etherverse/setup_report_20251109_143211.txt
+4.0K	/home/etherverse/etherverse/sql
+4.0K	/home/etherverse/etherverse/start_agents.sh
+4.0K	/home/etherverse/etherverse/start_rest_agents.sh
+4.0K	/home/etherverse/etherverse/swarm_orchestrator.py
+4.0K	/home/etherverse/etherverse/test.md
+4.0K	/home/etherverse/etherverse/test_orchestrator.py
+8.0K	/home/etherverse/etherverse/agents_found.log
+8.0K	/home/etherverse/etherverse/app
+8.0K	/home/etherverse/etherverse/credentials
+8.0K	/home/etherverse/etherverse/docker
+8.0K	/home/etherverse/etherverse/fix_orchestrator_stack.sh
+12K	/home/etherverse/etherverse/config
+12K	/home/etherverse/etherverse/etherverse_orchestrator
+16K	/home/etherverse/etherverse/guardian
+16K	/home/etherverse/etherverse/mem0
+20K	/home/etherverse/etherverse/pages
+24K	/home/etherverse/etherverse/api
+24K	/home/etherverse/etherverse/genesis_family
+36K	/home/etherverse/etherverse/analytics
+44K	/home/etherverse/etherverse/memory
+80K	/home/etherverse/etherverse/core
+384K	/home/etherverse/etherverse/frontend
+536K	/home/etherverse/etherverse/scripts
+908K	/home/etherverse/etherverse/docs
+936K	/home/etherverse/etherverse/agents
+1.7M	/home/etherverse/etherverse/logs
+3.9M	/home/etherverse/etherverse/gdrive_2.1.1_linux_amd64.tar.gz
+789M	/home/etherverse/etherverse/venv
+==============================================
