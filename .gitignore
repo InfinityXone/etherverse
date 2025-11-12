@@ -4,6 +4,18 @@ node_modules/
 .pnpm-store/
 pnpm-lock.yaml
 venv/
+# Ignore runtime & sensitive data
+logs/
+backups/
+__pycache__/
+venv/
+credentials/
+*.json
+*.key
+*.log
+*.bak
+*.tar.gz
+
 
 npm-debug.log*
 # Ignore temporary or jump files
@@ -41,3 +53,16 @@ ops/_legacy/
 scripts/full_autonomous_setup_safe.sh
 scripts/full_autonomous_setup.sh
 frontend/chat-ui/.next/
+# Ignore temp and sensitive data
+logs/
+backups/
+__pycache__/
+venv/
+credentials/
+*.json
+*.key
+*.log
+*.bak
+*.tar.gz
+tmp/
+*.out

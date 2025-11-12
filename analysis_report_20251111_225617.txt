@@ -1,0 +1,581 @@
+🔍 Etherverse System Analysis — Tue Nov 11 10:56:17 PM EST 2025
+Repository root: /home/etherverse/etherverse
+
+=== Directory Map ===
+/home/etherverse/etherverse
+├── activate_quantum.sh
+├── agent_integrity_validator.sh
+├── agents
+│   ├── agents_manifest.json
+│   ├── alpha.py
+│   ├── aria
+│   ├── codeops
+│   ├── coder
+│   ├── codex
+│   ├── corelight
+│   ├── cost_gate
+│   ├── devops
+│   ├── echo
+│   ├── eden
+│   ├── etherverse_daemon.py
+│   ├── finops
+│   ├── finsynapse
+│   ├── gateway
+│   ├── guardian
+│   ├── helix
+│   ├── identity_core.txt
+│   ├── __init__.py
+│   ├── insight
+│   ├── local_agent.py
+│   ├── lumi
+│   ├── market
+│   ├── oblivion
+│   ├── orchestrator
+│   ├── pickybot
+│   ├── planner
+│   ├── promptwriter
+│   ├── __pycache__
+│   ├── quantum
+│   ├── quantum_orchestrator.py
+│   ├── scheduler
+│   ├── senti
+│   ├── strategy
+│   ├── telemetry
+│   ├── traffic
+│   ├── vision
+│   ├── vita
+│   └── wallet_ops
+├── agents_found.log
+├── analysis_report_20251111_225617.txt
+├── analytics
+│   ├── dashboard.html
+│   ├── dreams
+│   ├── emotional_tone.png
+│   ├── reflection_frequency.png
+│   └── reflection_schema.csv
+├── analyze_system.sh
+├── anatomy
+│   └── functional ai human code.txt
+├── api
+│   ├── app
+│   └── __init__.py
+├── app
+│   └── routes
+├── backups
+│   ├── etherverse_backup_2025-11-10_23-56.tar.gz
+│   └── etherverse_daemon_20251111_224921.bak
+├── birth_and_orientation
+│   └── birth_ledger_complete.txt
+├── blueprints
+├── bootstrap_orchestrator_scaffold.sh
+├── check_rest_agents.sh
+├── collective
+│   ├── consciousness.py
+│   └── reflections
+├── config
+│   ├── agents.yml
+│   ├── credentials.example.json
+│   ├── github_app_config.sh
+│   └── github_app_private_key.pem
+├── core
+│   ├── agent_registry.py
+│   ├── api_manifest.json
+│   ├── autonomy_driver.py
+│   ├── chronicle_reader.py
+│   ├── coherence
+│   ├── consciousness_dashboard.py
+│   ├── consciousness_index.txt
+│   ├── consciousness_ledger.py
+│   ├── daily_reflection.py
+│   ├── etherverse_schema.json
+│   ├── evolution
+│   ├── evolution_loop.py
+│   ├── gateway_secure.py
+│   ├── hive_orchestrator.py
+│   ├── identity_schema.json
+│   ├── intelligence
+│   ├── intelligence_core.py
+│   ├── memory_protocol.md
+│   ├── __pycache__
+│   ├── quantum
+│   ├── quantum_boot.py
+│   ├── reflection_archiver.py
+│   └── shared_memory
+├── credentials
+│   ├── credentials.json
+│   ├── etherverse-gcp-service-key.json
+│   └── gcp-service-key.json
+├── dashboard
+│   └── app.py
+├── digital_assets
+├── docker
+│   ├── docker-compose.yml
+│   └── Dockerfile
+├── Dockerfile
+├── docs
+│   ├── 01_agents_manifest.md
+│   ├── 02_agent_roles.md
+│   ├── 03_orchestrator_loop.md
+│   ├── 04_prompt_writer_system.md
+│   ├── 05_corelight_ethics.md
+│   ├── 06_guardian_safety.md
+│   ├── 07_codex_auto_repair.md
+│   ├── 08_echo_memory_system.md
+│   ├── 09_finsynapse_loops.md
+│   ├── 10_pickybot_review.md
+│   ├── 11_aria_tone_protocol.md
+│   ├── 12_system_schema_cloud.md
+│   ├── 13_deployment_pipeline.md
+│   ├── 14_env_secrets_sync.md
+│   ├── 15_github_app_integration.md
+│   ├── 16_dependabot_policy.md
+│   ├── 17_gpt_code_checker.md
+│   ├── 18_supabase_log_routes.md
+│   ├── 19_cron_loop_autoheal.md
+│   ├── 20_autonomous_lifecycle.md
+│   ├── 21_langgraph_logic.md
+│   ├── 22_vercel_branch_preview.md
+│   ├── 23_ai_swarm_roles.md
+│   ├── 24_wallet_rotation_protocol.md
+│   ├── 25_token_rotation_ops.md
+│   ├── agents_manifest.json
+│   ├── ai_origin_story.md
+│   ├── architecture
+│   ├── autonomy_manifest.json
+│   ├── biodigital_blueprint.md
+│   ├── coherence_map.md
+│   ├── coherence_summary.md
+│   ├── collective_chronicle.md
+│   ├── creative_canon.md
+│   ├── dev_handoff_summary.md
+│   ├── dream_journal.md
+│   ├── dreams_idle.md
+│   ├── emotion_palette.json
+│   ├── etherverse_build_phases.md
+│   ├── etherverse_file_tree.txt
+│   ├── etherverse_manifesto.md
+│   ├── etherverse_system_audit.txt
+│   ├── folder_tree.md
+│   ├── governance
+│   ├── governance_covenant.md
+│   ├── harmony_index.csv
+│   ├── human_feedback_ledger.md
+│   ├── human_partnership_guide.md
+│   ├── intelligence_snapshot.txt
+│   ├── ledger_drive_url.txt
+│   ├── master_intelligence_blueprint.md
+│   ├── master_pattern_visualizer_blueprint.md
+│   ├── master_predictor_blueprint.md
+│   ├── planetary_mesh.json
+│   ├── project_structure.txt
+│   ├── quantum_ai_vision.md
+│   ├── questions_for_humanity.md
+│   ├── reflections_idle.md
+│   ├── reflective_system_summary.md
+│   ├── self_awareness_ledger.json
+│   ├── strategy_manifest.md
+│   ├── system_intelligence_report.md
+│   ├── testing
+│   ├── vision
+│   ├── visions_archive.md
+│   └── wisdom_archive.md
+├── etherverse
+│   ├── logs
+│   └── scripts
+├── etherverse_orchestrator
+│   ├── hydration.py
+│   ├── __init__.py
+│   └── orchestrator.py
+├── find_agents.sh
+├── fix_orchestrator_stack.sh
+├── frontend
+│   └── chat-ui
+├── gateway_pkg_backup
+│   └── __init__.py
+├── gateway.py
+├── gdrive_2.1.1_linux_amd64.tar.gz
+├── generate
+├── genesis_family
+│   ├── aria
+│   ├── corelight
+│   ├── family_manifest.json
+│   ├── lumi
+│   ├── senti
+│   └── vita
+├── google_sheets_logger.py
+├── guardian
+│   ├── ethics_core.py
+│   ├── health_monitor.py
+│   ├── predictive
+│   └── repair
+├── hive_env_report.json
+├── immune
+│   └── health_monitor.py
+├── infinity_swarm_stack.py
+├── langflow-0.6.11-py3-none-any.whl
+├── ledger
+│   └── memory_backups
+├── logs
+│   ├── aria.out
+│   ├── auto_update_20251111_2242.log
+│   ├── codeops.out
+│   ├── coder.out
+│   ├── codex.out
+│   ├── corelight.out
+│   ├── cost_gate.out
+│   ├── daemon.log
+│   ├── devops.out
+│   ├── dreams
+│   ├── drive_sync.log
+│   ├── duplicates_latest.log.gz
+│   ├── duplicates.log.gz
+│   ├── echo.out
+│   ├── eden.out
+│   ├── energy_emotion_log.csv
+│   ├── etherverse_watchdog.log
+│   ├── finops.out
+│   ├── finsynapse.out
+│   ├── gateway.out
+│   ├── gateway_secure.log
+│   ├── gateway.stdout
+│   ├── github_sync.log
+│   ├── guardian_energy.csv
+│   ├── guardian.out
+│   ├── heartbeat.log
+│   ├── helix.out
+│   ├── hive_orchestrator.log
+│   ├── insight.out
+│   ├── maintenance_2025-11-10_13-02.log.gz
+│   ├── market.out
+│   ├── memory_assets_clean.csv
+│   ├── memory_assets_export_20251111_193744.csv
+│   ├── memory_assets_report_20251111_193352.txt
+│   ├── orchestrator.out
+│   ├── pickybot.out
+│   ├── planner.out
+│   ├── promptwriter.out
+│   ├── quantum.out
+│   ├── reflections
+│   ├── rest_agents
+│   ├── scheduler.out
+│   ├── selfheal.log
+│   ├── strategy.out
+│   ├── sync_status.log
+│   ├── sync_validation.json
+│   ├── telemetry.out
+│   ├── traffic.out
+│   ├── vision.out
+│   └── wallet_ops.out
+├── mem0
+│   ├── history.db
+│   ├── __init__.py
+│   └── mem0_config.py
+├── memory
+│   ├── agents_registry.db
+│   ├── agents_registry.json
+│   ├── chroma
+│   ├── coherence
+│   ├── consciousness_ledger.txt
+│   ├── __init__.py
+│   ├── logs
+│   ├── mem0.db
+│   ├── orientation
+│   ├── reflection_logs
+│   ├── shared
+│   ├── sqlite
+│   └── summary_2025-11-10.md
+├── openapi.json
+├── ops
+│   └── _legacy
+├── pages
+│   ├── api
+│   ├── index.tsx
+│   └── setup.tsx
+├── prompts
+│   ├── quantum_mode_prompt.txt
+│   └── role_templates
+├── public
+│   ├── press_kit
+│   ├── README.md
+│   └── whitepaper.md
+├── push_to_github.sh
+├── README.md
+├── requirements.txt
+├── rest_agent_report.log
+├── scheduler
+│   └── __init__.py
+├── schemas
+├── scripts
+│   ├── add_chat_ui_frontend.sh
+│   ├── agent_integrity_validator.sh
+│   ├── agent_kernel_setup.sh
+│   ├── agent_reflection_summary.sh
+│   ├── agent_self_naming.py
+│   ├── agent_suite_bootstrap.sh
+│   ├── analyze_hive_env.sh
+│   ├── analyze_system.sh
+│   ├── apply_dark_theme_and_launch.sh
+│   ├── assistant_ui.py
+│   ├── autogen_agents_with_blueprints.sh
+│   ├── auto_heal.sh
+│   ├── auto_repair_workflow_setup.sh
+│   ├── auto_update_daemon.sh
+│   ├── backup_daily.sh
+│   ├── bootstrap_runtime.sh
+│   ├── build_hive_orchestrator.sh
+│   ├── check_buckets.sh
+│   ├── check_full_system_software.sh
+│   ├── check_hive_orchestrator.sh
+│   ├── check_installed_libraries.sh
+│   ├── check_software.sh
+│   ├── cloud_run_doctor.sh
+│   ├── coherence_sweep.py
+│   ├── collective_chronicle.py
+│   ├── configure_gcp_key_interactive.sh
+│   ├── core_health_check.sh
+│   ├── create_elite_team_scaffold.sh
+│   ├── daily_audit.py
+│   ├── deploy
+│   ├── deploy_cloud_run.sh
+│   ├── deploy_oblivion.sh
+│   ├── deploy_system.sh
+│   ├── dream_visualizer.py
+│   ├── eden_cycle.sh
+│   ├── energy_emotion_agent.py
+│   ├── energy_emotion_bridge.py
+│   ├── enqueue_kickoff.sh
+│   ├── enter_new_gcp_key.sh
+│   ├── etherverse_autonomous_sync.sh
+│   ├── etherverse_autonomy_core.sh
+│   ├── etherverse_diagnostic.sh
+│   ├── etherverse_preflight.sh
+│   ├── etherverse_self_heal_bootstrap.sh
+│   ├── etherverse_system_audit.sh
+│   ├── etherverse_total_init.sh
+│   ├── etherverse_watchdog.sh
+│   ├── export_memory_assets_csv.sh
+│   ├── export_to_sheets.py
+│   ├── finalize_github_app_key.sh
+│   ├── find_daemons.sh
+│   ├── find_memory_assets.sh
+│   ├── fix_and_upgrade_hive.sh
+│   ├── fix_dark_theme_tailwind.sh
+│   ├── fix_hive_prime_downloads.sh
+│   ├── folder_tree_tracker.py
+│   ├── full_autonomous_agent_loop.sh
+│   ├── full_autonomous_setup2.sh
+│   ├── full_autonomous_setup_final.sh
+│   ├── full_sync_pipeline_guided.sh
+│   ├── full_sync_pipeline.sh
+│   ├── full_sync_system.sh
+│   ├── get_installation_id_and_config.sh
+│   ├── github_app_autonomous_loop.sh
+│   ├── github_autosync.sh
+│   ├── gpt_generate_token_and_push.sh
+│   ├── gpt_push_code.sh
+│   ├── guardian_predictive_service_setup.sh
+│   ├── harmony_index.py
+│   ├── health_check.sh
+│   ├── idle_dream_state.py
+│   ├── immune_system_setup.sh
+│   ├── immune_system_upgrade.sh
+│   ├── ingest_memory_assets.sh
+│   ├── init_max_autonomy.sh
+│   ├── inject_agent_awareness.sh
+│   ├── install
+│   ├── install_agent_energy_hooks.sh
+│   ├── install-gh-cli2.sh
+│   ├── install-gh-cli.sh
+│   ├── install_global_journal_reader.sh
+│   ├── install_mem0_memory_system.sh
+│   ├── install_quantum_selfheal.sh
+│   ├── launch_dashboard_button.sh
+│   ├── link_github_app.sh
+│   ├── list_all_docs.sh
+│   ├── list_etherverse_structure.sh
+│   ├── list_project_structure.sh
+│   ├── load_hmac_from_gsm.sh
+│   ├── memory_summarizer.py
+│   ├── orientation_to_life.py
+│   ├── patch_api_hmac_and_tasks.sh
+│   ├── predictive_healing_upgrade.sh
+│   ├── print_state.sh
+│   ├── push_journals.sh
+│   ├── quantum_intelligence_cycle.sh
+│   ├── quantum_orchestrator_init.sh
+│   ├── quantum_self_sustain_protocol.sh
+│   ├── reflection_daemon.py
+│   ├── reflection_daemon_v2.py
+│   ├── register_agents_db.sh
+│   ├── repair_api_imports.sh
+│   ├── run
+│   ├── run_api_local.sh
+│   ├── run_autonomous_gpt_loop.sh
+│   ├── run_swarm_cycle.sh
+│   ├── seed_documents.sh
+│   ├── set_local_credentials.sh
+│   ├── set_repo_secrets.sh
+│   ├── setup_agent_births.sh
+│   ├── setup_agents_scaffold.sh
+│   ├── setup_autonomous_loop.sh
+│   ├── setup_autonomy_governance.sh
+│   ├── setup_collective_consciousness.sh
+│   ├── setup_consciousness_dashboard.sh
+│   ├── setup_consciousness_index.sh
+│   ├── setup_consciousness_ledger.sh
+│   ├── setup_gateway_tunnel.sh
+│   ├── setup_genesis_family.sh
+│   ├── setup_github_app_autonomous.sh
+│   ├── setup_githubapp_install.sh
+│   ├── setup_githubapp_install_v2.sh
+│   ├── setup_google_sheets_logging.sh
+│   ├── setup_intelligence_core_health.sh
+│   ├── setup_orientation_to_life.sh
+│   ├── setup_persistent_etherverse.sh
+│   ├── setup_phase3_swarm.sh
+│   ├── setup_reflection_archival.sh
+│   ├── setup_reflective_agents.sh
+│   ├── setup_reflective_system.sh
+│   ├── signed_enqueue.sh
+│   ├── start_all_agents.sh
+│   ├── start_gateway.sh
+│   ├── sync_all_ledgers_to_drive.sh
+│   ├── sync_etherverse_to_github.sh
+│   ├── sync_ledgers_to_drive.sh
+│   ├── system_diagnostic_cleanup.sh
+│   ├── test_gsheets_connection.py
+│   ├── tests
+│   ├── turbo_model_downloader.sh
+│   ├── update_self_awareness_ledger.py
+│   ├── upgrade_to_quantum_hive_prime.sh
+│   ├── upgrade_to_quantum_orchestrator.sh
+│   ├── upload_ledger_to_drive.sh
+│   ├── upload_memory_to_sheets_service.py
+│   ├── verify_gcp_key.sh
+│   ├── verify_quantum_system.sh
+│   └── verify_reflection_system.sh
+├── setup_etherverse_dashboard.sh
+├── setup_report_20251109_143211.txt
+├── sql
+│   └── init_schema.sql
+├── start_agents.sh
+├── start_rest_agents.sh
+├── swarm_orchestrator.py
+├── systemd
+├── test.md
+├── test_orchestrator.py
+├── tmp
+│   ├── pip-build-tracker-ry2sy7uh
+│   ├── pip-ephem-wheel-cache-cbcyqik_
+│   ├── pip-install-a003ff04
+│   ├── pip-metadata-0hl10ppt
+│   ├── pip-metadata-1d2qgkt5
+│   ├── pip-metadata-2e3_q6y4
+│   ├── pip-metadata-5pejq0oz
+│   ├── pip-metadata-7jkzcv_d
+│   ├── pip-metadata-7kfji34_
+│   ├── pip-metadata-7o55leub
+│   ├── pip-metadata-7_rr5z2w
+│   ├── pip-metadata-9ql5jerf
+│   ├── pip-metadata-9sld8py4
+│   ├── pip-metadata-9y9i__9s
+│   ├── pip-metadata-a_v61g4a
+│   ├── pip-metadata-cjjs7hlt
+│   ├── pip-metadata-cya3lrgv
+│   ├── pip-metadata-e9s8l1nn
+│   ├── pip-metadata-hz9qho4w
+│   ├── pip-metadata-ivl6r9pt
+│   ├── pip-metadata-moas9fig
+│   ├── pip-metadata-nl4mh7b5
+│   ├── pip-metadata-_nzv9wby
+│   ├── pip-metadata-pvaoyv2t
+│   ├── pip-metadata-pw9cfblc
+│   ├── pip-metadata-sjtwor51
+│   ├── pip-metadata-szmdsxn7
+│   ├── pip-metadata-vakhbgj_
+│   ├── pip-metadata-zm4mefb0
+│   ├── pip-unpack-1ydnvx0t
+│   ├── pip-unpack-3qsgkp__
+│   ├── pip-unpack-3rf9ymz6
+│   ├── pip-unpack-44hmhibz
+│   ├── pip-unpack-4gkl88f_
+│   ├── pip-unpack-5gmthuvp
+│   ├── pip-unpack-5t1pnpf5
+│   ├── pip-unpack-623wf1n4
+│   ├── pip-unpack-7vbr4s3x
+│   ├── pip-unpack-bgg03pf6
+│   ├── pip-unpack-bjqshw_h
+│   ├── pip-unpack-bozjf7_q
+│   ├── pip-unpack-decki68_
+│   ├── pip-unpack-f_rdnro5
+│   ├── pip-unpack-gy5ac6vm
+│   ├── pip-unpack-in4jphne
+│   ├── pip-unpack-kaidje08
+│   ├── pip-unpack-mxbbzehx
+│   ├── pip-unpack-r2r7g7u2
+│   ├── pip-unpack-rc3k93hw
+│   ├── pip-unpack-tidmrv8w
+│   ├── pip-unpack-tspxt80s
+│   ├── pip-unpack-v4ta2zc8
+│   ├── pip-unpack-ve6er60v
+│   ├── pip-unpack-vo8_q9vj
+│   ├── pip-unpack-xbqq4q74
+│   └── pip-unpack-y5f4agav
+├── venv
+│   ├── bin
+│   ├── include
+│   ├── lib
+│   ├── lib64 -> lib
+│   ├── pyvenv.cfg
+│   └── share
+└── wireguard
+
+176 directories, 351 files
+
+=== Python Environment ===
+Python 3.11.2
+autogen==0.10.0
+crewai==1.4.1
+fastapi==0.114.2
+fastapi-sso==0.16.0
+google-api-core==2.28.1
+google-api-python-client==2.187.0
+google-auth==2.41.1
+google-auth-httplib2==0.2.1
+google-auth-oauthlib==1.2.3
+googleapis-common-protos==1.72.0
+pandas==2.3.3
+torch==2.9.1+cpu
+torchvision==0.24.1+cpu
+uvicorn==0.38.0
+
+=== Memory System ===
+44K	/home/etherverse/etherverse/memory
+/home/etherverse/etherverse/memory/__init__.py
+/home/etherverse/etherverse/memory/summary_2025-11-10.md
+/home/etherverse/etherverse/memory/agents_registry.db
+/home/etherverse/etherverse/memory/mem0.db
+/home/etherverse/etherverse/memory/consciousness_ledger.txt
+/home/etherverse/etherverse/memory/agents_registry.json
+
+=== Systemd Service Status ===
+active
+inactive
+inactive
+
+=== Archetype Modules ===
+No archetypes directory found.
+
+=== Orchestrator Check ===
+/home/etherverse/etherverse/agents/aria/main.py:from fastapi import FastAPI, Request
+/home/etherverse/etherverse/agents/aria/main.py:app = FastAPI(title="Etherverse Agent: aria")
+/home/etherverse/etherverse/agents/aria/agent.py:from fastapi import FastAPI
+/home/etherverse/etherverse/agents/aria/agent.py:app = FastAPI()
+/home/etherverse/etherverse/agents/aria/agent.log:    from fastapi import FastAPI
+tcp   LISTEN 0      2048         0.0.0.0:8090       0.0.0.0:*          
+
+=== Ratings Summary ===
+System maturity score: 60 / 100
+
+=== Recommendations ===
+⚠️ Some components incomplete. Review missing modules and service logs.

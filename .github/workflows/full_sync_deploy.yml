@@ -1,0 +1,30 @@
+name: Full-Sync & Deploy
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
+
+permissions:
+  contents: write
+  actions: write
+  issues: write
+  pull-requests: write
+  deployments: write
+
+jobs:
+  orchestrator:
+    runs-on: ubuntu-latest
+    env:
+      AGENT_API_KEY: ${{ secrets.AGENT_API_KEY }}
+      SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Full Sync Script
+        run: bash scripts/full_sync_system.sh
+        env:
+          GITHUB_APP_PRIVATE_KEY: ${{ secrets.GITHUB_APP_PRIVATE_KEY }}
+          GITHUB_APP_APP_ID: ${{ secrets.GITHUB_APP_APP_ID }}
