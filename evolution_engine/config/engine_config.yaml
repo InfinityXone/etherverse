@@ -1,0 +1,14 @@
+# Evolution Engine Configuration
+scan_interval: 30m
+innovation_window: weekly
+score_thresholds:
+  optimum: 90
+  caution: 70
+  critical: 50
+auto_heal_enabled: true
+sandbox_mode: true
+update_repo: "https://github.com/your-org/evolution-engine-updates.git"
+rollback_limit: 5
+alert_channels:
+  email: you@domain.com
+  slack_webhook: "https://hooks.slack.com/…"

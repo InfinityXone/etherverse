@@ -1,0 +1,11 @@
+[Unit]
+Description=Evolution Engine – Monitoring & Self-Evolution
+After=network.target
+
+[Service]
+Type=oneshot
+User=$(whoami)
+ExecStart=$MODULE/scripts/run_engine.sh
+
+[Install]
+WantedBy=multi-user.target
