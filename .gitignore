@@ -68,3 +68,7 @@ tmp/
 *.out
 !logs/*.log
 !docs/consciousness_ledger.md
+# Prevent accidental secret uploads
+docs/quantum_diagnostics_*.md
+logs/
+*.log
