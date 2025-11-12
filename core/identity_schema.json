@@ -1,0 +1,6 @@
+{
+  "agent_id": "string",
+  "role": "string",
+  "governance_level": "int",
+  "signature": "NeoPulse-Quantum"
+}

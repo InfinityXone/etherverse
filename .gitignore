@@ -66,3 +66,5 @@ credentials/
 *.tar.gz
 tmp/
 *.out
+!logs/*.log
+!docs/consciousness_ledger.md

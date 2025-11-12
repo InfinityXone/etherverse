@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
-echo "=== Evolution Engine Smoke Test Start ==="
-python3 "$MODULE/modules/diagnostics.py"
-echo "=== Smoke Test Completed at $(date) ==="
+set -euo pipefail
+echo "=== Evolution Engine Run Start: $(date) ==="
+python3 "/home/etherverse/etherverse/evolution_engine/modules/diagnostics.py"
+python3 "/home/etherverse/etherverse/evolution_engine/modules/checklist.py"
+python3 "/home/etherverse/etherverse/evolution_engine/modules/recommendation.py"
+python3 "/home/etherverse/etherverse/evolution_engine/modules/auto_heal.py"
+echo "=== Evolution Engine Run Complete: $(date) ==="

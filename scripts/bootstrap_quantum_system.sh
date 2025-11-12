@@ -8,7 +8,7 @@ LOG="$BASE/logs/bootstrap.log"
 RESULTS="$BASE/logs/bootstrap_results.log"
 mkdir -p "$(dirname "$LOG")"
 
-# --- helpers -------------------------------------------------
+# --- helper functions ---------------------------------------
 log(){ echo -e "[$(date '+%F %T')] $*" | tee -a "$LOG"; }
 ok(){ echo -e "\033[1;32m[✅]\033[0m $*" | tee -a "$RESULTS"; }
 warn(){ echo -e "\033[1;33m[⚠️]\033[0m $*" | tee -a "$RESULTS"; }
@@ -25,10 +25,11 @@ fi
 source "$BASE/venv/bin/activate" && ok "Virtual environment active"
 
 # --- 2. Dependencies -----------------------------------------
-REQS=(chromadb networkx prophet fastapi uvicorn gradio websockets numpy<2 pandas pydantic<2.12)
+REQS=("chromadb" "networkx" "prophet" "fastapi" "uvicorn" "gradio" "websockets" "numpy<2" "pandas" "pydantic<2.12")
 for pkg in "${REQS[@]}"; do
-  if python -m pip show ${pkg%%<*} >/dev/null 2>&1; then
-    ok "Package ${pkg%%<*} already present"
+  PKG_NAME=$(echo "$pkg" | cut -d'<' -f1)
+  if python -m pip show "$PKG_NAME" >/dev/null 2>&1; then
+    ok "Package $PKG_NAME already present"
   else
     log "Installing $pkg..."
     if pip install -q "$pkg" --timeout 600 --no-cache-dir; then
@@ -45,13 +46,14 @@ for dir in core config data/vector_memory dashboards; do
 done
 ok "Directory tree ready"
 
-# --- 4. Core scaffolds (only if missing) ---------------------
+# --- 4. Scaffolding helper -----------------------------------
 scaffold(){
   local file="$1"; shift
   local body="$*"
   if [ ! -f "$file" ]; then echo "$body" >"$file" && ok "Created $file"; else ok "Found $file"; fi
 }
 
+# --- 5. Core scaffolds ---------------------------------------
 scaffold "$BASE/core/resonance_interface.py" \
 "from fastapi import FastAPI
 import uvicorn
@@ -63,11 +65,11 @@ if __name__=='__main__': uvicorn.run(app,host='127.0.0.1',port=8095)"
 scaffold "$BASE/config/governance_rules.json" \
 "{\"ethics\":{\"no_harm\":true},\"mission\":\"Evolve intelligence ethically\"}"
 
-# --- 5. Smoke tests ------------------------------------------
+# --- 6. Smoke tests ------------------------------------------
 python -c "import fastapi,uvicorn" && ok "FastAPI imports clean" || fail "FastAPI import failed"
 python -c "import chromadb" && ok "Chroma import ok" || fail "Chroma import failed"
 
-# --- 6. Launch test server in background ---------------------
+# --- 7. Launch test server in background ---------------------
 log "Launching temporary API..."
 python "$BASE/core/resonance_interface.py" & PID=$!
 sleep 5
@@ -78,12 +80,12 @@ else
 fi
 kill $PID >/dev/null 2>&1 || true
 
-# --- 7. File integrity check ---------------------------------
+# --- 8. File integrity check ---------------------------------
 find "$BASE/core" -type f | while read f; do
   if [ -s "$f" ]; then ok "File non-empty: $(basename "$f")"; else fail "Empty: $f"; fi
 done
 
-# --- 8. Summary ----------------------------------------------
+# --- 9. Summary ----------------------------------------------
 echo "===================================================" >>"$RESULTS"
 ok "Bootstrap complete — results logged to $RESULTS"
 log "✅ Bootstrap finished. View smoke test summary below:"

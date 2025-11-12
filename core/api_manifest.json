@@ -1,0 +1,5 @@
+{
+  "resonance_interface": "http://127.0.0.1:8095/",
+  "memory_gateway": "local://memory.db",
+  "quantum_audit": "local://self_audit"
+}

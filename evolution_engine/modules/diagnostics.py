@@ -1,35 +1,29 @@
 #!/usr/bin/env python3
-import sqlite3, time, os, subprocess
+import subprocess, json, sqlite3, os, time
 
-DB_PATH = os.path.expanduser("$MODULE/data/state.sqlite")
+STATE_DB = os.path.expanduser("$STATE_DB")
 
-def init_db():
-    conn = sqlite3.connect(DB_PATH)
-    conn.execute("CREATE TABLE IF NOT EXISTS metrics(ts INTEGER, metric TEXT, value TEXT)")
-    conn.commit()
-    conn.close()
+def check_service(svc):
+    try:
+        out = subprocess.check_output(["systemctl","is-active",svc], text=True).strip()
+    except Exception:
+        out = "unknown"
+    return out
 
-def record(metric, value):
-    conn = sqlite3.connect(DB_PATH)
-    conn.execute("INSERT INTO metrics(ts, metric, value) VALUES (?, ?, ?)",
-                 (int(time.time()), metric, str(value)))
-    conn.commit()
-    conn.close()
-
-def check_services():
-    svcs = ["etherverse-daemon.service","etherverse-auto-update.service"]
+def main():
+    services = ["etherverse-daemon.service","etherverse-auto-update.service"]
     results = {}
-    for s in svcs:
-        try:
-            status = subprocess.check_output(["systemctl","is-active",s], text=True).strip()
-        except Exception:
-            status = "unknown"
-        results[s] = status
-    return results
+    for s in services:
+        results[s] = check_service(s)
+    print("Diagnostics:", json.dumps(results))
+    conn = sqlite3.connect(STATE_DB)
+    cur = conn.cursor()
+    cur.execute("CREATE TABLE IF NOT EXISTS diagnostics(ts INTEGER, service TEXT, status TEXT)")
+    ts = int(time.time())
+    for svc, status in results.items():
+        cur.execute("INSERT INTO diagnostics(ts, service, status) VALUES(?,?,?)", (ts, svc, status))
+    conn.commit()
+    conn.close()
 
-if __name__ == \"__main__\":
-    init_db()
-    res = check_services()
-    for svc, st in res.items():
-        record(svc, st)
-    print("Diagnostics module ran successfully:", res)
+if __name__ == "__main__":
+    main()
