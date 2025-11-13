@@ -15,6 +15,7 @@ echo "[☁️] Starting Etherverse → Google Drive sync @ $(date)" | tee -a "$L
 rclone sync "$SRC" "$DEST" \
   --exclude "venv/**" \
   --exclude "logs/**" \
+  --include "memory/**" \
   --include "memory_core/**" \
   --include "memory_core/**" \
   --exclude "*.pyc" \
