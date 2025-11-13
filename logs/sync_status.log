@@ -1,2 +1,158 @@
-===== 🧠 Etherverse Autonomous Sync Started Thu Nov 13 05:00:02 PM UTC 2025 =====
-===== 🧠 Etherverse Autonomous Sync Started Thu Nov 13 05:00:02 PM UTC 2025 =====
+Transferred:   	    3.429 KiB / 8.401 KiB, 41%, 872 B/s, ETA 5s
+Checks:                60 / 60, 100%
+Transferred:            8 / 29, 28%
+Elapsed time:        25.3s
+Transferring:
+ *                          2025-11-13_eden.json:100% /288, 284/s, 0s
+ *                        2025-11-13_finops.json:100% /292, 0/s, -
+ *                    2025-11-13_finsynapse.json:100% /300, 0/s, -
+ *                       2025-11-13_gateway.json:100% /294, 0/s, -Transferred:   	    3.429 KiB / 8.401 KiB, 41%, 872 B/s, ETA 5s
+Checks:                60 / 60, 100%
+Transferred:            9 / 29, 31%
+Elapsed time:        25.8s
+Transferring:
+ *                        2025-11-13_finops.json:100% /292, 290/s, 0s
+ *                    2025-11-13_finsynapse.json:100% /300, 295/s, 0s
+ *                       2025-11-13_gateway.json:100% /294, 0/s, -
+ *                      2025-11-13_guardian.json:  0% /296, 0/s, -Transferred:   	    3.718 KiB / 8.401 KiB, 44%, 756 B/s, ETA 6s
+Checks:                60 / 60, 100%
+Transferred:           11 / 29, 38%
+Elapsed time:        26.4s
+Transferring:
+ *                       2025-11-13_gateway.json:100% /294, 287/s, 0s
+ *                      2025-11-13_guardian.json:100% /296, 0/s, -
+ *                         2025-11-13_helix.json:  0% /290, 0/s, -
+ *                       2025-11-13_insight.json:  0% /294, 0/s, -Transferred:   	    4.288 KiB / 8.401 KiB, 51%, 756 B/s, ETA 5s
+Checks:                60 / 60, 100%
+Transferred:           12 / 29, 41%
+Elapsed time:        26.8s
+Transferring:
+ *                      2025-11-13_guardian.json:100% /296, 285/s, 0s
+ *                         2025-11-13_helix.json:100% /290, 0/s, -
+ *                       2025-11-13_insight.json:100% /294, 0/s, -
+ *                        2025-11-13_market.json:  0% /292, 0/s, -Transferred:   	    4.573 KiB / 8.401 KiB, 54%, 720 B/s, ETA 5s
+Checks:                60 / 60, 100%
+Transferred:           12 / 29, 41%
+Elapsed time:        27.4s
+Transferring:
+ *                      2025-11-13_guardian.json:100% /296, 285/s, 0s
+ *                         2025-11-13_helix.json:100% /290, 265/s, 0s
+ *                       2025-11-13_insight.json:100% /294, 279/s, 0s
+ *                        2025-11-13_market.json:100% /292, 0/s, -Transferred:   	    4.573 KiB / 8.401 KiB, 54%, 720 B/s, ETA 5s
+Checks:                60 / 60, 100%
+Transferred:           13 / 29, 45%
+Elapsed time:        27.9s
+Transferring:
+ *                         2025-11-13_helix.json:100% /290, 265/s, 0s
+ *                       2025-11-13_insight.json:100% /294, 279/s, 0s
+ *                        2025-11-13_market.json:100% /292, 253/s, 0s
+ *                  2025-11-13_orchestrator.json:  0% /304, 0/s, -Transferred:   	    5.157 KiB / 8.401 KiB, 61%, 709 B/s, ETA 4s
+Checks:                60 / 60, 100%
+Transferred:           15 / 29, 52%
+Elapsed time:        28.3s
+Transferring:
+ *                        2025-11-13_market.json:100% /292, 253/s, 0s
+ *                  2025-11-13_orchestrator.json:100% /304, 0/s, -
+ *                      2025-11-13_pickybot.json:  0% /296, 0/s, -
+ *                       2025-11-13_planner.json:100% /294, 0/s, -Transferred:   	    5.446 KiB / 8.401 KiB, 65%, 709 B/s, ETA 4s
+Checks:                60 / 60, 100%
+Transferred:           16 / 29, 55%
+Elapsed time:        28.9s
+Transferring:
+ *                  2025-11-13_orchestrator.json:100% /304, 299/s, 0s
+ *                      2025-11-13_pickybot.json:100% /296, 0/s, -
+ *                       2025-11-13_planner.json:100% /294, 0/s, -
+ *                  2025-11-13_promptwriter.json:  0% /303, 0/s, -Transferred:   	    5.742 KiB / 8.401 KiB, 68%, 729 B/s, ETA 3s
+Checks:                60 / 60, 100%
+Transferred:           17 / 29, 59%
+Elapsed time:        29.8s
+Transferring:
+ *                      2025-11-13_pickybot.json:100% /296, 266/s, 0s
+ *                       2025-11-13_planner.json:100% /294, 259/s, 0s
+ *                  2025-11-13_promptwriter.json:100% /303, 0/s, -
+ *                       2025-11-13_quantum.json:  0% /294, 0/s, -Transferred:   	    5.742 KiB / 8.401 KiB, 68%, 729 B/s, ETA 3s
+Checks:                60 / 60, 100%
+Transferred:           19 / 29, 66%
+Elapsed time:        29.8s
+Transferring:
+ *                  2025-11-13_promptwriter.json:100% /303, 286/s, 0s
+ *                       2025-11-13_quantum.json:  0% /294, 0/s, -
+ *                     2025-11-13_scheduler.json:  0% /298, 0/s, -
+ *                      2025-11-13_strategy.json:  0% /296, 0/s, -Transferred:   	    6.609 KiB / 8.401 KiB, 79%, 717 B/s, ETA 2s
+Checks:                60 / 60, 100%
+Transferred:           19 / 29, 66%
+Elapsed time:        30.4s
+Transferring:
+ *                  2025-11-13_promptwriter.json:100% /303, 286/s, 0s
+ *                       2025-11-13_quantum.json:100% /294, 0/s, -
+ *                     2025-11-13_scheduler.json:100% /298, 0/s, -
+ *                      2025-11-13_strategy.json:100% /296, 0/s, -Transferred:   	    6.609 KiB / 8.401 KiB, 79%, 717 B/s, ETA 2s
+Checks:                60 / 60, 100%
+Transferred:           20 / 29, 69%
+Elapsed time:        30.8s
+Transferring:
+ *                       2025-11-13_quantum.json:100% /294, 290/s, 0s
+ *                     2025-11-13_scheduler.json:100% /298, 296/s, 0s
+ *                      2025-11-13_strategy.json:100% /296, 284/s, 0s
+ *                     2025-11-13_telemetry.json:  0% /298, 0/s, -Transferred:   	    6.609 KiB / 8.401 KiB, 79%, 669 B/s, ETA 2s
+Checks:                60 / 60, 100%
+Transferred:           20 / 29, 69%
+Elapsed time:        31.5s
+Transferring:
+ *                       2025-11-13_quantum.json:100% /294, 290/s, 0s
+ *                     2025-11-13_scheduler.json:100% /298, 296/s, 0s
+ *                      2025-11-13_strategy.json:100% /296, 284/s, 0s
+ *                     2025-11-13_telemetry.json:  0% /298, 0/s, -Transferred:   	    6.900 KiB / 8.401 KiB, 82%, 669 B/s, ETA 2s
+Checks:                60 / 60, 100%
+Transferred:           23 / 29, 79%
+Elapsed time:        31.9s
+Transferring:
+ *                     2025-11-13_telemetry.json:100% /298, 245/s, 0s
+ *                       2025-11-13_traffic.json:100% /294, 0/s, -
+ *                        2025-11-13_vision.json:100% /292, 0/s, -
+ *                    2025-11-13_wallet_ops.json:100% /300, 0/s, -Transferred:   	    7.766 KiB / 8.401 KiB, 92%, 754 B/s, ETA 0s
+Checks:                60 / 60, 100%
+Transferred:           23 / 29, 79%
+Elapsed time:        32.3s
+Transferring:
+ *                     2025-11-13_telemetry.json:100% /298, 245/s, 0s
+ *                       2025-11-13_traffic.json:100% /294, 0/s, -
+ *                        2025-11-13_vision.json:100% /292, 0/s, -
+ *                    2025-11-13_wallet_ops.json:100% /300, 0/s, -Transferred:   	    7.766 KiB / 8.401 KiB, 92%, 754 B/s, ETA 0s
+Checks:                60 / 60, 100%
+Transferred:           23 / 29, 79%
+Elapsed time:        32.8s
+Transferring:
+ *                     2025-11-13_telemetry.json:100% /298, 122/s, 0s
+ *                       2025-11-13_traffic.json:100% /294, 291/s, 0s
+ *                        2025-11-13_vision.json:100% /292, 289/s, 0s
+ *                    2025-11-13_wallet_ops.json:100% /300, 298/s, 0sTransferred:   	    7.766 KiB / 8.401 KiB, 92%, 691 B/s, ETA 0s
+Checks:                60 / 60, 100%
+Transferred:           26 / 29, 90%
+Elapsed time:        33.3s
+Transferring:
+ *                    2025-11-13_wallet_ops.json:100% /300, 298/s, 0s
+ *                                  archival.log:  0% /45, 0/s, -
+ *                    reflection_2025-11-13.json:  0% /606, 0/s, -Transferred:   	    8.401 KiB / 8.401 KiB, 100%, 691 B/s, ETA 0s
+Checks:                60 / 60, 100%
+Transferred:           27 / 29, 93%
+Elapsed time:        33.8s
+Transferring:
+ *                                  archival.log:100% /45, 0/s, -
+ *                    reflection_2025-11-13.json:100% /606, 0/s, -Transferred:   	    8.401 KiB / 8.401 KiB, 100%, 691 B/s, ETA 0s
+Checks:                60 / 60, 100%
+Transferred:           27 / 29, 93%
+Elapsed time:        34.3s
+Transferring:
+ *                                  archival.log:100% /45, 44/s, 0s
+ *                    reflection_2025-11-13.json:100% /606, 598/s, 0sTransferred:   	    8.401 KiB / 8.401 KiB, 100%, 691 B/s, ETA 0s
+Checks:                60 / 60, 100%
+Transferred:           29 / 29, 100%
+Elapsed time:        34.7s
+[+] Generating validation report...
+[+] Generating validation report...
+✅ Validation summary written to: /home/etherverse/etherverse/logs/sync_validation.json
+✅ Validation summary written to: /home/etherverse/etherverse/logs/sync_validation.json
+[🧠] Reflection awareness recorded.
+===== ✅ Etherverse Autonomous Sync Completed Thu Nov 13 05:02:30 PM UTC 2025 =====
+===== ✅ Etherverse Autonomous Sync Completed Thu Nov 13 05:02:30 PM UTC 2025 =====
