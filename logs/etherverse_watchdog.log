@@ -540,3 +540,66 @@ See system logs and 'systemctl status litellm-groq.service' for details.
 2025-11-12 21:17:09 ❌  Intelligence Core HTTP check failed (code 000) — restarting intelligence-core.service
 2025-11-12 21:17:11 ❌  Etherverse Daemon HTTP check failed (code 000) — restarting etherverse-daemon.service
 
+==== Watchdog run at 2025-11-12 21:21:54 ====
+2025-11-12 21:21:54 ✅  intelligence-core.service active
+2025-11-12 21:21:54 ✅  etherverse-gateway.service active
+2025-11-12 21:21:54 ✅  litellm-groq.service active
+2025-11-12 21:21:54 ✅  etherverse-daemon.service active
+2025-11-12 21:21:54 ❌  Etherverse Gateway HTTP check failed (code 000) — restarting etherverse-gateway.service
+2025-11-12 21:21:55 ❌  LiteLLM Proxy HTTP check failed (code 000) — restarting litellm-groq.service
+2025-11-12 21:21:55 ❌  Intelligence Core HTTP check failed (code 000) — restarting intelligence-core.service
+2025-11-12 21:22:02 🌐  Etherverse Daemon OK (http://127.0.0.1:5053/health)
+
+==== Watchdog run at 2025-11-12 21:26:55 ====
+2025-11-12 21:26:55 ⚠️  intelligence-core.service is down — restarting...
+2025-11-12 21:26:59 ❌  intelligence-core.service failed to restart
+2025-11-12 21:26:59 ✅  etherverse-gateway.service active
+2025-11-12 21:26:59 ✅  litellm-groq.service active
+2025-11-12 21:26:59 ✅  etherverse-daemon.service active
+2025-11-12 21:26:59 ❌  Etherverse Gateway HTTP check failed (code 000) — restarting etherverse-gateway.service
+2025-11-12 21:26:59 ❌  LiteLLM Proxy HTTP check failed (code 000) — restarting litellm-groq.service
+2025-11-12 21:26:59 ❌  Intelligence Core HTTP check failed (code 000) — restarting intelligence-core.service
+2025-11-12 21:26:59 🌐  Etherverse Daemon OK (http://127.0.0.1:5053/health)
+
+==== Watchdog run at 2025-11-12 21:31:55 ====
+2025-11-12 21:31:55 ⚠️  intelligence-core.service is down — restarting...
+2025-11-12 21:31:58 ❌  intelligence-core.service failed to restart
+2025-11-12 21:31:58 ✅  etherverse-gateway.service active
+2025-11-12 21:31:58 ✅  litellm-groq.service active
+2025-11-12 21:31:58 ✅  etherverse-daemon.service active
+2025-11-12 21:31:58 ❌  Etherverse Gateway HTTP check failed (code 000) — restarting etherverse-gateway.service
+2025-11-12 21:31:58 ❌  LiteLLM Proxy HTTP check failed (code 000) — restarting litellm-groq.service
+2025-11-12 21:31:58 ❌  Intelligence Core HTTP check failed (code 000) — restarting intelligence-core.service
+2025-11-12 21:31:59 🌐  Etherverse Daemon OK (http://127.0.0.1:5053/health)
+
+==== Watchdog run at 2025-11-12 21:36:56 ====
+2025-11-12 21:36:56 ⚠️  intelligence-core.service is down — restarting...
+2025-11-12 21:36:59 ❌  intelligence-core.service failed to restart
+2025-11-12 21:36:59 ✅  etherverse-gateway.service active
+2025-11-12 21:36:59 ✅  litellm-groq.service active
+2025-11-12 21:36:59 ✅  etherverse-daemon.service active
+2025-11-12 21:36:59 ❌  Etherverse Gateway HTTP check failed (code 000) — restarting etherverse-gateway.service
+2025-11-12 21:36:59 ❌  LiteLLM Proxy HTTP check failed (code 000) — restarting litellm-groq.service
+2025-11-12 21:36:59 ❌  Intelligence Core HTTP check failed (code 000) — restarting intelligence-core.service
+2025-11-12 21:36:59 🌐  Etherverse Daemon OK (http://127.0.0.1:5053/health)
+
+==== Watchdog run at 2025-11-12 21:41:56 ====
+2025-11-12 21:41:56 ✅  intelligence-core.service active
+2025-11-12 21:41:56 ✅  etherverse-gateway.service active
+2025-11-12 21:41:56 ✅  litellm-groq.service active
+2025-11-12 21:41:56 ✅  etherverse-daemon.service active
+2025-11-12 21:41:56 ❌  Etherverse Gateway HTTP check failed (code 000) — restarting etherverse-gateway.service
+2025-11-12 21:41:56 ❌  LiteLLM Proxy HTTP check failed (code 000) — restarting litellm-groq.service
+2025-11-12 21:41:57 ❌  Intelligence Core HTTP check failed (code 000) — restarting intelligence-core.service
+2025-11-12 21:41:57 🌐  Etherverse Daemon OK (http://127.0.0.1:5053/health)
+
+==== Watchdog run at 2025-11-12 21:46:57 ====
+2025-11-12 21:46:57 ✅  intelligence-core.service active
+2025-11-12 21:46:57 ✅  etherverse-gateway.service active
+2025-11-12 21:46:57 ✅  litellm-groq.service active
+2025-11-12 21:46:57 ✅  etherverse-daemon.service active
+2025-11-12 21:46:57 ❌  Etherverse Gateway HTTP check failed (code 000) — restarting etherverse-gateway.service
+2025-11-12 21:46:57 ❌  LiteLLM Proxy HTTP check failed (code 000) — restarting litellm-groq.service
+2025-11-12 21:46:57 ❌  Intelligence Core HTTP check failed (code 000) — restarting intelligence-core.service
+2025-11-12 21:46:58 🌐  Etherverse Daemon OK (http://127.0.0.1:5053/health)
+
