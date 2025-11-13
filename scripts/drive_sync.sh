@@ -19,6 +19,7 @@ rclone sync "$SRC" "$DEST" \
   --exclude "__pycache__/**" \
   --progress \
   --log-file "$LOG"
+  --exclude "tmp/**" \
 
 if [ $? -eq 0 ]; then
   echo "[✅] Sync completed successfully @ $(date)" | tee -a "$LOG"
