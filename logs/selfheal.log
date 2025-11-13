@@ -784,3 +784,16 @@ Reading state information...
 ===== 🧬 Etherverse Self-Heal Thu Nov 13 03:58:44 PM EST 2025 =====
 ===== 🧬 Etherverse Self-Heal Thu Nov 13 03:58:55 PM EST 2025 =====
 ===== 🧬 Etherverse Self-Heal Thu Nov 13 03:59:44 PM EST 2025 =====
+===== 🧬 Etherverse Self-Heal Thu Nov 13 04:01:15 PM EST 2025 =====
+===== 🧬 Etherverse Self-Heal Thu Nov 13 04:02:45 PM EST 2025 =====
+===== 🧬 Etherverse Self-Heal Thu Nov 13 04:02:46 PM EST 2025 =====
+===== 🧬 Etherverse Self-Heal Thu Nov 13 04:03:44 PM EST 2025 =====
+===== 🧬 Etherverse Self-Heal Thu Nov 13 04:04:16 PM EST 2025 =====
+===== 🧬 Etherverse Self-Heal Thu Nov 13 04:04:16 PM EST 2025 =====
+python3: can't open file '/root/etherverse/core/agent_registry.py': [Errno 2] No such file or directory
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 5 not upgraded.
+3.4G	/home/etherverse/etherverse
+===== ✅ Self-Heal Complete Thu Nov 13 04:04:29 PM EST 2025 =====
