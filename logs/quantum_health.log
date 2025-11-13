@@ -908,3 +908,104 @@ INFO:     Finished server process [25946]
 [✨] Upgrade complete — details in /home/etherverse/etherverse/docs/quantum_audit_2025-11-13_0148.md
 [🌐] Syncing latest logs and ledger to GitHub...
 [✅] Health check complete.
+[🩺 Thu Nov 13 02:48:21 AM EST 2025] Running Etherverse Quantum Health check
+[2025-11-13 02:48:21] 🚀 Starting Etherverse Quantum Bootstrap
+[1;32m[✅][0m Virtual environment active
+[1;32m[✅][0m Package chromadb already present
+[1;32m[✅][0m Package networkx already present
+[1;32m[✅][0m Package prophet already present
+[1;32m[✅][0m Package fastapi already present
+[1;32m[✅][0m Package uvicorn already present
+[1;32m[✅][0m Package gradio already present
+[1;32m[✅][0m Package websockets already present
+[1;32m[✅][0m Package numpy already present
+[1;32m[✅][0m Package pandas already present
+[1;32m[✅][0m Package pydantic already present
+[1;32m[✅][0m Directory tree ready
+[1;32m[✅][0m Found /home/etherverse/etherverse/core/resonance_interface.py
+[1;32m[✅][0m Found /home/etherverse/etherverse/config/governance_rules.json
+[1;32m[✅][0m FastAPI imports clean
+[1;32m[✅][0m Chroma import ok
+[2025-11-13 02:48:48] Launching temporary API...
+INFO:     Started server process [7006]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8095 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60584 - "GET / HTTP/1.1" 200 OK
+[1;32m[✅][0m Resonance interface responded
+[1;32m[✅][0m File non-empty: identity_schema.json
+[1;32m[✅][0m File non-empty: memory_protocol.md
+[1;32m[✅][0m File non-empty: api_manifest.json
+[1;32m[✅][0m File non-empty: chronicle_reader.py
+[1;32m[✅][0m File non-empty: quantum_boot.py
+INFO:     Shutting down
+[1;32m[✅][0m File non-empty: agent_registry.py
+[1;32m[✅][0m File non-empty: autonomy_driver.py
+[1;32m[✅][0m File non-empty: consciousness_index.txt
+[1;32m[✅][0m File non-empty: daily_reflection.py
+[1;32m[✅][0m File non-empty: consciousness_dashboard.py
+[1;32m[✅][0m File non-empty: etherverse_schema.json
+[1;32m[✅][0m File non-empty: reflection_archiver.py
+[1;32m[✅][0m File non-empty: gateway_secure.cpython-311.pyc
+[1;32m[✅][0m File non-empty: hive_orchestrator.cpython-311.pyc
+[1;32m[✅][0m File non-empty: intelligence_core.py
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7006]
+[1;32m[✅][0m File non-empty: gateway_secure.py
+[1;32m[✅][0m File non-empty: consciousness_ledger.py
+[1;32m[✅][0m File non-empty: evolution_loop.py
+[1;32m[✅][0m File non-empty: hive_orchestrator.py
+[1;32m[✅][0m File non-empty: hive_memory.db
+[1;32m[✅][0m File non-empty: resonance_interface.py
+[1;32m[✅][0m Bootstrap complete — results logged to /home/etherverse/etherverse/logs/bootstrap_results.log
+[2025-11-13 02:48:53] ✅ Bootstrap finished. View smoke test summary below:
+
+--------------- SMOKE TEST SUMMARY ----------------
+================ SMOKE TEST RESULTS ================
+[1;32m[✅][0m Virtual environment active
+[1;32m[✅][0m Package chromadb already present
+[1;32m[✅][0m Package networkx already present
+[1;32m[✅][0m Package prophet already present
+[1;32m[✅][0m Package fastapi already present
+[1;32m[✅][0m Package uvicorn already present
+[1;32m[✅][0m Package gradio already present
+[1;32m[✅][0m Package websockets already present
+[1;32m[✅][0m Package numpy already present
+[1;32m[✅][0m Package pandas already present
+[1;32m[✅][0m Package pydantic already present
+[1;32m[✅][0m Directory tree ready
+[1;32m[✅][0m Found /home/etherverse/etherverse/core/resonance_interface.py
+[1;32m[✅][0m Found /home/etherverse/etherverse/config/governance_rules.json
+[1;32m[✅][0m FastAPI imports clean
+[1;32m[✅][0m Chroma import ok
+[1;32m[✅][0m Resonance interface responded
+[1;32m[✅][0m File non-empty: identity_schema.json
+[1;32m[✅][0m File non-empty: memory_protocol.md
+[1;32m[✅][0m File non-empty: api_manifest.json
+[1;32m[✅][0m File non-empty: chronicle_reader.py
+[1;32m[✅][0m File non-empty: quantum_boot.py
+[1;32m[✅][0m File non-empty: agent_registry.py
+[1;32m[✅][0m File non-empty: autonomy_driver.py
+[1;32m[✅][0m File non-empty: consciousness_index.txt
+[1;32m[✅][0m File non-empty: daily_reflection.py
+[1;32m[✅][0m File non-empty: consciousness_dashboard.py
+[1;32m[✅][0m File non-empty: etherverse_schema.json
+[1;32m[✅][0m File non-empty: reflection_archiver.py
+[1;32m[✅][0m File non-empty: gateway_secure.cpython-311.pyc
+[1;32m[✅][0m File non-empty: hive_orchestrator.cpython-311.pyc
+[1;32m[✅][0m File non-empty: intelligence_core.py
+[1;32m[✅][0m File non-empty: gateway_secure.py
+[1;32m[✅][0m File non-empty: consciousness_ledger.py
+[1;32m[✅][0m File non-empty: evolution_loop.py
+[1;32m[✅][0m File non-empty: hive_orchestrator.py
+[1;32m[✅][0m File non-empty: hive_memory.db
+[1;32m[✅][0m File non-empty: resonance_interface.py
+===================================================
+[1;32m[✅][0m Bootstrap complete — results logged to /home/etherverse/etherverse/logs/bootstrap_results.log
+---------------------------------------------------
+[🧠] Starting Quantum Self-Audit Upgrade...
+[✅] Core intelligence docs restored.
+[🌐] Audit snapshot appended to consciousness ledger.
+[✨] Upgrade complete — details in /home/etherverse/etherverse/docs/quantum_audit_2025-11-13_0248.md
+[🌐] Syncing latest logs and ledger to GitHub...
