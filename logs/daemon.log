@@ -3238,3 +3238,110 @@ INFO:     Started server process [1163]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:5053 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1163]
+2025-11-13 08:49:59,671 [INFO] ===================================================
+2025-11-13 08:49:59,672 [INFO] 🧠  Etherverse Daemon starting
+2025-11-13 08:49:59,672 [INFO] 📂  Log file: /home/etherverse/etherverse/etherverse/logs/daemon.log
+2025-11-13 08:49:59,672 [INFO] 🌐  Serving on http://127.0.0.1:5053
+2025-11-13 08:49:59,672 [INFO] ===================================================
+INFO:     Started server process [2919]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5053 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2919]
+2025-11-13 08:51:27,079 [INFO] ===================================================
+2025-11-13 08:51:27,080 [INFO] 🧠  Etherverse Daemon starting
+2025-11-13 08:51:27,080 [INFO] 📂  Log file: /home/etherverse/etherverse/etherverse/logs/daemon.log
+2025-11-13 08:51:27,080 [INFO] 🌐  Serving on http://127.0.0.1:5053
+2025-11-13 08:51:27,080 [INFO] ===================================================
+INFO:     Started server process [3944]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5053 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3944]
+2025-11-13 08:52:17,509 [INFO] ===================================================
+2025-11-13 08:52:17,510 [INFO] 🧠  Etherverse Daemon starting
+2025-11-13 08:52:17,510 [INFO] 📂  Log file: /home/etherverse/etherverse/etherverse/logs/daemon.log
+2025-11-13 08:52:17,510 [INFO] 🌐  Serving on http://127.0.0.1:5053
+2025-11-13 08:52:17,510 [INFO] ===================================================
+INFO:     Started server process [4822]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5053 (Press CTRL+C to quit)
+INFO:     127.0.0.1:40410 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4822]
+2025-11-13 08:53:47,231 [INFO] ===================================================
+2025-11-13 08:53:47,231 [INFO] 🧠  Etherverse Daemon starting
+2025-11-13 08:53:47,231 [INFO] 📂  Log file: /home/etherverse/etherverse/etherverse/logs/daemon.log
+2025-11-13 08:53:47,231 [INFO] 🌐  Serving on http://127.0.0.1:5053
+2025-11-13 08:53:47,231 [INFO] ===================================================
+INFO:     Started server process [5889]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5053 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5889]
+2025-11-13 08:55:18,890 [INFO] ===================================================
+2025-11-13 08:55:18,890 [INFO] 🧠  Etherverse Daemon starting
+2025-11-13 08:55:18,890 [INFO] 📂  Log file: /home/etherverse/etherverse/etherverse/logs/daemon.log
+2025-11-13 08:55:18,891 [INFO] 🌐  Serving on http://127.0.0.1:5053
+2025-11-13 08:55:18,891 [INFO] ===================================================
+INFO:     Started server process [7144]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5053 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52776 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7144]
+2025-11-13 08:56:50,488 [INFO] ===================================================
+2025-11-13 08:56:50,489 [INFO] 🧠  Etherverse Daemon starting
+2025-11-13 08:56:50,489 [INFO] 📂  Log file: /home/etherverse/etherverse/etherverse/logs/daemon.log
+2025-11-13 08:56:50,489 [INFO] 🌐  Serving on http://127.0.0.1:5053
+2025-11-13 08:56:50,490 [INFO] ===================================================
+INFO:     Started server process [8184]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5053 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8184]
+2025-11-13 08:57:19,316 [INFO] ===================================================
+2025-11-13 08:57:19,316 [INFO] 🧠  Etherverse Daemon starting
+2025-11-13 08:57:19,317 [INFO] 📂  Log file: /home/etherverse/etherverse/etherverse/logs/daemon.log
+2025-11-13 08:57:19,317 [INFO] 🌐  Serving on http://127.0.0.1:5053
+2025-11-13 08:57:19,317 [INFO] ===================================================
+INFO:     Started server process [8783]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5053 (Press CTRL+C to quit)
+INFO:     127.0.0.1:40160 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8783]
+2025-11-13 08:58:50,371 [INFO] ===================================================
+2025-11-13 08:58:50,371 [INFO] 🧠  Etherverse Daemon starting
+2025-11-13 08:58:50,371 [INFO] 📂  Log file: /home/etherverse/etherverse/etherverse/logs/daemon.log
+2025-11-13 08:58:50,372 [INFO] 🌐  Serving on http://127.0.0.1:5053
+2025-11-13 08:58:50,372 [INFO] ===================================================
+INFO:     Started server process [10017]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5053 (Press CTRL+C to quit)
